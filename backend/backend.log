@@ -1,0 +1,25 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.133:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-566-451
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:08:11] "GET /api/health HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:10:00] "POST /api/scrape HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:14:15] "OPTIONS /api/scrape/preview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:14:17] "POST /api/scrape/preview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:14:55] "OPTIONS /api/scrape HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:14:57] "POST /api/scrape HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:16:20] "OPTIONS /api/scrape HTTP/1.1" 200 -
+ERROR:__main__:Request error for https://ngosindia.com/: 403 Client Error: Forbidden for url: https://ngosindia.com/
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:16:21] "POST /api/scrape HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:17:58] "OPTIONS /api/scrape HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:18:02] "POST /api/scrape HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:44:18] "OPTIONS /api/scrape/preview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:44:20] "POST /api/scrape/preview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:44:23] "OPTIONS /api/scrape HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2025 00:44:26] "POST /api/scrape HTTP/1.1" 200 -

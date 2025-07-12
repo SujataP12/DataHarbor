@@ -1,0 +1,4 @@
+127.0.0.1 - - [12/Jul/2025 00:09:32] "HEAD /simple-frontend.html HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2025 00:10:50] "GET /simple-frontend.html HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2025 00:10:50] code 404, message File not found
+127.0.0.1 - - [12/Jul/2025 00:10:50] "GET /favicon.ico HTTP/1.1" 404 -
